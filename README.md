@@ -1,5 +1,7 @@
 # Smombie AR
 
+`PyTorch` · `EfficientNet-B0`
+
 An Android prototype that recognizes the surroundings seen by a phone camera and displays warnings while the user is viewing another app.
 
 ## Goal
@@ -16,7 +18,7 @@ The Android app uses Kotlin and ONNX Runtime. The training code uses PyTorch and
 
 ## My Contribution
 
-I collected image data and trained the classification model. This connected the data-collection and model-training work to a mobile application that could present warnings over other content.
+I collected image data and trained an EfficientNet-B0 classification model in PyTorch. This connected the data-collection and model-training work to a mobile application that could present warnings over other content.
 
 ## Implementation
 
